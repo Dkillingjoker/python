@@ -17,16 +17,14 @@ There will always be one or more students having the second lowest grade.
 Print the name(s) of any student(s) having the second lowest grade in Physics; if there are multiple students, order their names alphabetically and print each one on a new line. """
 
 nlist = []
-for i in range(int(input())):          #Pre-written
+for i in range(int(raw_input())):          #Pre-written
         name = input()                 #Pre-written
-        score = float(input())         #Pre-written
+        score = float(raw_input())         #Pre-written
         nlist.append([name,score])
         nlist.sort(key = lambda x: x[1])
         
 for m in range(0,len(nlist)):
     for n in range (0,1):
-        print (nlist[m][1])                  #Stuck here..
+        print nlist[m][1]                  #Stuck here..
         
-print (nlist[::-1])
-
-#This code is in Py 3
+print nlist[::-1]
