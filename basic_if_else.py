@@ -20,3 +20,10 @@ elif N >= 6 and N <= 20:
     print "Weird"
 elif N > 20:
     print "Not Weird"
+
+# Add the comments to the following code 
+# elif N >= 2 and N <= 5:
+#     print "Not Weird"
+# elif N > 20:
+#     print "Not Weird"
+# Now try to solve the program
