@@ -29,4 +29,6 @@ if __name__ == '__main__':
         
 
 # 3/10 Test Cases failed ! 
+# Re-write this code in O(n) time complexity. Erase everything ! start thinking about it from the scratch. 
+# Hint: Don't use - arr.sort()
 
