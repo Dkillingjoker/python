@@ -1,2 +1,2 @@
 Solutions for Problems from Hackerrank
-Implementations in Python !!
+Implementations in Python 2 !!
