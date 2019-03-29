@@ -17,16 +17,14 @@ if __name__ == '__main__':
     arr = map(int, raw_input().split())  #Pre-written
 
     x = max(arr)
-    arr.sort()
     r = arr[::-1]
-    for i in range(len(r)):
-        if r[i] == x:
-            if r[i+1] != x:
-                print r[i+1]
-            else:
-                print r[i+2]
-            break
+    for a in r:
+        if a == x:
+            arr.remove(a)
+                    
+    y = max(arr)    
+    print y        
         
 
-# 3/10 Test Cases failed ! 
+# All test cases passed !
 
