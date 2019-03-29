@@ -20,7 +20,7 @@ nlist = []
 for i in range(int(raw_input())):          #Pre-written
         name = input()                 #Pre-written
         score = float(raw_input())         #Pre-written
-        nlist.append([name,score])
+        nlist.append([name,score])              # try : nlist.append([name], [score])
         nlist.sort(key = lambda x: x[1])
         
 for m in range(0,len(nlist)):

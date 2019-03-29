@@ -10,3 +10,4 @@ if __name__ == '__main__':              #Default
     print result
 
 # All test cases valid.
+# Re-write without using swapcase()

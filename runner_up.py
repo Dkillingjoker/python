@@ -26,5 +26,10 @@ if __name__ == '__main__':
     print y        
         
 
-# All test cases passed !
+# All test cases passed ! Not sure whether this satisfies O(n) time complexity though.
+
+# Your previous comments:
+
+# Re-write this code in O(n) time complexity. Erase everything ! start thinking about it from the scratch. 
+# Hint: Don't use - arr.sort()
 
