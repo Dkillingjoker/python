@@ -20,7 +20,7 @@ if __name__ == '__main__':                         #Pre-written
         student_marks[name] = scores
     query_name = raw_input()                          
 
-    n=0        # is this declaration required here?                                     #code
+    n=0                                             #code
     s=0
     x = student_marks[query_name]
     for n in range (0,len(x)):
